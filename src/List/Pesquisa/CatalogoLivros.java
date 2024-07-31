@@ -66,6 +66,7 @@ public class CatalogoLivros {
         catalogoLivros.adicionarLivro("Dona aranha", "Stephan",1989);
         catalogoLivros.adicionarLivro("Como perder um homem","Domick" ,1990 );
         System.out.println(catalogoLivros.pesquisarPorTitulo("Dona Aranha"));
-        System.out.println(catalogoLivros.pesquisarPorIntervaloAnos(2000,2010 ));
+        System.out.println(catalogoLivros.pesquisarPorIntervaloAnos(1990,2010 ));
+        System.out.println(catalogoLivros.pesquisarPorAutor("Stephan"));
       }
 }
